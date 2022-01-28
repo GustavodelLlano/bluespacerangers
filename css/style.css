@@ -1,0 +1,85 @@
+css
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: rgb(30,31,32);
+    background: linear-gradient(90deg, rgba(30,31,32,1) 0%, rgba(64,142,208,1) 47%, rgba(40,45,50,1) 100%);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Monoton', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.title{
+    color: rgb(214, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    
+}
+.start{
+    flex-direction: column;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.start button{
+    font-size: 40px;
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 60px 80px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Monoton', cursive;
+}
+.controls{
+    margin-top: 60px;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.controls div{
+    display: flex;
+    align-items: center;
+}
+.controls div img{
+    margin-right: 10px;
+}
+img{
+    width: 30px;
+}
+
+
+
+#gameover{
+    display: none;
+    justify-content: center;
+    align-items: center
+}
+#score{
+    display: block;
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    
+    margin: auto;
+}
+
+#gameover img{
+    width: 100%;
+    margin-top: 80px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
